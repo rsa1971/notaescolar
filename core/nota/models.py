@@ -10,7 +10,7 @@ class Nota(models.Model):
 	primeira_nota = models.IntegerField(u'1º Bimestre')
 	segunda_nota = models.IntegerField(u'2º Bimestre')
 	terceira_nota = models.IntegerField(u'3º Bimestre')
-	quarta_nota  = models.IntegerField(u'4º Bimestre')
+	quarta_nota = models.IntegerField(u'4º Bimestre')
 	media_notas = models.IntegerField(u'Média', blank=True, default=0)
 
 	def __str__(self):

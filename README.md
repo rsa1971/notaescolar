@@ -3,7 +3,6 @@ SISTEMA DE NOTA ESCOLAR COM DJANGO 3
 
 1 - clone o repositório
 
-
 2 - python3 manage.py makemigrations 
 
 3 - python3 manage.py migrate
